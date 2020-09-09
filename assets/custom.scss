@@ -1,0 +1,279 @@
+.card {
+
+    float: left;
+    width: calc(33.3% - 20px);
+
+    margin: 10px;
+
+}
+
+
+
+.cardContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
+
+.child-flex-default {
+    width: 100%;
+    max-width: 250px;
+}
+
+
+.cardContainer h2 {
+
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.22222222;
+    font-size-adjust: .5;
+    padding: 10px;
+}
+
+.cardContainer p {
+    line-height: 1.5;
+    max-width: 35em;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.title-headline {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+
+.sow-sub-headline {
+
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+
+
+.author__index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 1.5rem;
+    animation: 🍆 2s linear infinite;
+    background: linear-gradient(-45deg, hsl(0, 100%, 100%), hsl(0, 100%, 100%) 25%, hsl(221, 100%, 97%) 25%, hsl(221, 100%, 97%) 50%, hsl(0, 100%, 100%) 50%, hsl(0, 100%, 100%) 75%, hsl(221, 100%, 97%) 75%, hsl(221, 100%, 97%)) 0 0 / 8rem 8rem;
+}
+
+.cards__index {
+
+    margin-top: 1.25em;
+    padding: .5em .75em;
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid #000;
+    box-shadow: 7px 7px 0 0 #333;
+}
+
+
+/* MEGA MENU */
+amp-mega-menu .i-amphtml-mega-menu-content {
+
+    width: 48.9vw;
+}
+
+
+/* MEGA MENU__test */
+
+
+amp-mega-menu nav {
+    border: 1px solid #333;
+}
+
+amp-mega-menu .menu-item[open]>span {
+    background-color: white;
+}
+
+amp-mega-menu .menu-item[open]>div {
+
+    border: 1px solid #333;
+}
+
+
+
+
+/* MEGA MENU__UL */
+
+.menu-item {
+    font-size: 1.2em;
+}
+
+ul.menu-categories {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu__column {
+    line-height: 18px;
+
+    display: inline-block;
+    vertical-align: top;
+    width: 198px;
+    margin: 0 15px;
+    white-space: normal;
+}
+
+.menu__column-link {
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+    margin: 9px 0 0;
+    border-bottom: none;
+    color: #000;
+}
+
+.header__menu__logo {
+
+    float: left;
+    padding-right: 1.5rem;
+    border-bottom: none;
+
+}
+
+.header {
+
+    background-color: hsl(180, 50%, 96.1%);
+    box-shadow: 0 0 0 1px #eee, 0 0 0 7px white, 0 0 0 8px #ddd;
+}
+
+.header-logo__title {
+    padding-top: .25em;
+}
+
+
+
+
+
+/* ARTICLE */
+
+article.content>header {
+    margin-top: 0;
+}
+
+.wrapper-simple-image {
+
+
+    margin-right: 1.5rem;
+    float: left;
+}
+
+
+.title-image {
+
+    margin-right: 1.5rem;
+    float: left;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+
+
+}
+
+.title-image img {
+    margin: 0 auto;
+
+
+    box-shadow: 0 0 0 1px #eee, 0 0 0 7px white, 0 0 0 8px #ddd;
+}
+
+.wrapper-simple-image img {
+    margin: 0 auto;
+    max-width: 350px;
+
+    box-shadow: 0 0 0 1px #eee, 0 0 0 7px white, 0 0 0 8px #ddd;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    font-weight: 300;
+}
+
+
+.post__header {
+    line-height: 1.2;
+    padding: 1.5rem 0;
+}
+
+.post__title {
+
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.post__lead {
+
+    text-align: center;
+    font-size: 3.5rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+
+blockquote {
+
+    margin-left: 0;
+    margin-bottom: 1rem;
+
+    border-left: none;
+    font-size: 1.25rem;
+    font-style: italic;
+    line-height: 1.5;
+    padding: 0;
+}
+
+
+.carousel-black__bg {
+    background-color: hsl(0, 0%, 0%);
+}
+
+figcaption {
+
+    padding-top: 0;
+
+}
+
+.wrapper-simple-image figcaption {
+
+    padding-top: 1rem;
+
+}
+
+
+.container-twocol {
+    display: flex;
+
+}
+
+.child-column {
+    width: 100%; // Or 33.33%, or whatever. Just make sure you specify in %
+}
+
+.🎀 {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+
+    margin-right: 0.5rem;
+}
+
+.content>h4 {
+    margin-top: 0;
+}
